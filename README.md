@@ -1,6 +1,6 @@
 # git_cheetsheets
 
-<!-- Git Cheetsheet -->
+
 **What is Git ?**
  - Version Control System is a tools that helps to track changes in code.
  It is :
@@ -23,15 +23,15 @@
     - git clone <repository_url> : Clone an existing repository from a remote source.
     - git status : Check the status of your working directory and staging area.
 
-   ** Add & Commit :**
+    **Add & Commit :**
     - git add <file_name> : Stage changes for the next commit.
     - git commit -m "commit message" : Commit staged changes with a descriptive message.
 
-   ** Push & Pull :**
+   **Push & Pull :**
     - git push origin <branch_name> : Push local commits to a remote repository.
     - git pull origin <branch_name> : Fetch and merge changes from a remote repository.
 
-   ** Branching & Merging :**
+   **Branching & Merging :**
     - git branch : List all branches in the repository.
     - git branch -M <new_branch_name> : Rename the current branch.
     - git checkout <branch_name> : Switch to a different branch.
@@ -54,7 +54,7 @@
     - git stash : Temporarily save changes that are not ready to be committed.
     - git tag <tag_name> : Create a tag for a specific commit.
 
-   ** Undoing Changes :**
+    **Undoing Changes :**
 
     **Case 1** : staged changes
              - git reset <file_name> : Unstage a specific file.
@@ -69,11 +69,11 @@
                 - git reset --hard <commit_id> : Reset the current branch to a specific commit
 
 
-   ** Rebasing & Cherry-picking :**
+    **Rebasing & Cherry-picking :**
     - git rebase <branch_name> : Reapply commits on top of another base tip.
     - git cherry-pick <commit_id> : Apply the changes introduced by some existing commits
 
-    ** Rename & Remove Files :**
+    **Rename & Remove Files :**
     - git rm <file_name> : Remove a file from the working directory and staging area.
     - git mv <old_file_name> <new_file_name> : Rename or move a file.
 
